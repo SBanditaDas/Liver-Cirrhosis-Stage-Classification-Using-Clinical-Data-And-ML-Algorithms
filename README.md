@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-
-
->>>>>>> d59139a (files added)
 ---
 
 # 🧾 Liver Cirrhosis Stage Detection – Predicting Disease Progression from Clinical Data
@@ -10,7 +5,6 @@
 _Using Random Forest classification to predict liver cirrhosis stages based on patient data from a Mayo Clinic study (1974–1984)._
 
 ---
-<<<<<<< HEAD
 ![Python](https://img.shields.io/badge/Python-3.8-blue)
 ![Kaggle](https://img.shields.io/badge/Kaggle-Kernel-success)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
@@ -25,26 +19,17 @@ _Using Random Forest classification to predict liver cirrhosis stages based on p
 - <a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
 - <a href="#modeling--evaluation">Modeling & Evaluation</a>
 - <a href="#how-to-run-this-project">How to Run This Project</a>
-- <a href="#final-recommendations">Final Recommendations</a>
 - <a href="#author--contact">Author & Contact</a>
 
 ---
 
 <h2><a class="anchor" id="overview"></a>Overview</h2>
-=======
-
-### overview :
->>>>>>> d59139a (files added)
 
 This project predicts the histologic stage of liver cirrhosis using clinical data collected from patients over a 10-year period. The pipeline includes data cleaning, encoding, normalization, exploratory analysis, and Random Forest classification — all built and executed in a Kaggle kernel.
 
 ---
 
-<<<<<<< HEAD
 <h2><a class="anchor" id="project-problem"></a>Project Problem</h2>
-=======
-### Project Problem :
->>>>>>> d59139a (files added)
 
 Early detection of liver cirrhosis progression can improve treatment outcomes. This project aims to:
 - Predict cirrhosis stage (1, 2, or 3) from patient data  
@@ -53,34 +38,24 @@ Early detection of liver cirrhosis progression can improve treatment outcomes. T
 
 ---
 
-<<<<<<< HEAD
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
-=======
-### Dataset :
->>>>>>> d59139a (files added)
 
 - Source: Mayo Clinic study on primary biliary cirrhosis (1974–1984)  
-- Format: CSV file with 25,000 patient records  
-- Features include:  
-  - Demographics (Age, Sex)  
-  - Clinical indicators (Bilirubin, Albumin, Copper, SGOT, etc.)  
-  - Symptoms (Ascites, Edema, Spiders)  
-<<<<<<< HEAD
-  - Target: `Stage` (1, 2, or 3)
-  - `liver_cirrhosis.csv`: Dataset
-  - `liver_cirrhosis_stage_detection.ipynb`: Kaggle notebook
-  - `README.md`: Project summary
 
+ ```
+ 
+|    |   N_Days | Status   | Drug    |   Age | Sex   | Ascites   | Hepatomegaly   | Spiders   | Edema   |   Bilirubin |   Cholesterol |   Albumin |   Copper |   Alk_Phos |   SGOT |   Tryglicerides |   Platelets |   Prothrombin |   Stage |
+|---:|---------:|:---------|:--------|------:|:------|:----------|:---------------|:----------|:--------|------------:|--------------:|----------:|---------:|-----------:|-------:|----------------:|------------:|--------------:|--------:|
+|  0 |     2221 | C        | Placebo | 18499 | F     | N         | Y              | N         | N       |         0.5 |           149 |      4.04 |      227 |        598 |  52.7  |              57 |         256 |           9.9 |       1 |
+|  1 |     1230 | C        | Placebo | 19724 | M     | Y         | N              | Y         | N       |         0.5 |           219 |      3.93 |       22 |        663 |  45    |              75 |         220 |          10.8 |       2 |
+|  2 |     4184 | C        | Placebo | 11839 | F     | N         | N              | N         | N       |         0.5 |           320 |      3.54 |       51 |       1243 | 122.45 |              80 |         225 |          10   |       2 |
+|  3 |     2090 | D        | Placebo | 16467 | F     | N         | N              | N         | N       |         0.7 |           255 |      3.74 |       23 |       1024 |  77.5  |              58 |         151 |          10.2 |       2 |
+|  4 |     2105 | D        | Placebo | 21699 | F     | N         | Y              | N         | N       |         1.9 |           486 |      3.54 |       74 |       1052 | 108.5  |             109 |         151 |          11.5 |       1 |
+```
 
 ---
 
 <h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
-=======
-  - Target: `Stage` (1, 2, or 3)  
-
----
-### Tools & Technologies :
->>>>>>> d59139a (files added)
 
 - Python (Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib)  
 - Kaggle Kernels (Notebook execution and visualization)  
@@ -88,7 +63,6 @@ Early detection of liver cirrhosis progression can improve treatment outcomes. T
 
 ---
 
-<<<<<<< HEAD
 <h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
 
 ```
@@ -105,9 +79,6 @@ liver_cirrhosis_stage_detection/
 ---
 
 <h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning & Preparation</h2>
-=======
-### Data Cleaning & Preparation :
->>>>>>> d59139a (files added)
 
 - Encoded categorical features (Sex, Drug, Edema, etc.)  
 - Normalized numerical features using `StandardScaler`  
@@ -115,7 +86,6 @@ liver_cirrhosis_stage_detection/
 - Split dataset into training and test sets  
 
 ---
-<<<<<<< HEAD
 
 <h2><a class="anchor" id="exploratory-data-analysis-eda"></a>Exploratory Data Analysis (EDA)</h2>
 
@@ -133,9 +103,6 @@ liver_cirrhosis_stage_detection/
 ---
 
 <h2><a class="anchor" id="modeling--evaluation"></a>Modeling & Evaluation</h2>
-=======
-### Modeling & Evaluation :
->>>>>>> d59139a (files added)
 
 - Model: Random Forest Classifier  
 - Accuracy: ~85% on test set  
@@ -150,7 +117,6 @@ liver_cirrhosis_stage_detection/
 
 1. Clone the repository:  
 ```bash
-<<<<<<< HEAD
 git clone https://github.com/SBanditaDas/Liver-Cirrhosis-Stage-Detection.git
 ```
 - Open the notebook in Kaggle or Jupyter:
@@ -158,13 +124,6 @@ git clone https://github.com/SBanditaDas/Liver-Cirrhosis-Stage-Detection.git
 
 - Run all cells to reproduce results and visuals
 
----
-<h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
-
-- Explore ensemble models like XGBoost for improved accuracy
-- Add SHAP or LIME for feature explainability
-- Integrate with clinical dashboards for real-time prediction
-- Validate with external datasets for generalization
 ---
 
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
@@ -176,32 +135,3 @@ git clone https://github.com/SBanditaDas/Liver-Cirrhosis-Stage-Detection.git
 🔗 [Portfolio](http://datascienceportfol.io/sushreebanditadas01)
 
 ---
-=======
-git clone https://github.com/SBanditaDas/liver-cirrhosis-stage-detection.git
-```
-
-2. Open the notebook in Kaggle or Jupyter:  
-   🔗 [liver_cirrhosis_stage_detection.ipynb](https://github.com/SBanditaDas/liver-cirrhosis-stage-detection/blob/main/liver_cirrhosis_stage_detection.ipynb)
-
-3. Run all cells to reproduce results and visuals  
----
-
-### Author : Sushree Bandita Das 
-
-<h3 align="left"></h3> 
-<p align="left">
-  <a href="https://twitter.com/S_Bandita_Das" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="S_Bandita_Das" height="30" width="40" />
-  </a>
-  <a href="http://www.linkedin.com/in/sushree-bandita-das-160651309" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sushree-bandita-das-160651309" height="30" width="40" />
-  </a>
-  <a href="https://github.com/SBanditaDas" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="SBanditaDas" height="30" width="40" />
-  </a>
-  <a href="https://www.kaggle.com/dasbanditasushree" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="dasbanditasushree" height="30" width="40" />
-  </a>
-
-</p>
->>>>>>> d59139a (files added)
