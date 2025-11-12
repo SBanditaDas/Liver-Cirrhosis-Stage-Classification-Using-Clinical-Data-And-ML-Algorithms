@@ -98,7 +98,12 @@ liver_cirrhosis_stage_detection/
 **Visuals:**  
 - Correlation heatmap  
 - Boxplots for key features  
-- Stage distribution bar chart  
+- Stage distribution bar chart
+<p align="center">
+  <img src="https://github.com/SBanditaDas/Liver-Cirrhosis-Stage-Classification-Using-Clinical-Data-And-ML-Algorithms/blob/main/heatmap.png?raw=true" width="320"/>
+  <img src="https://github.com/SBanditaDas/Liver-Cirrhosis-Stage-Classification-Using-Clinical-Data-And-ML-Algorithms/blob/main/confusion_matrix.png?raw=true" width="300"/>
+  <img src="https://github.com/SBanditaDas/Liver-Cirrhosis-Stage-Classification-Using-Clinical-Data-And-ML-Algorithms/blob/main/stage_distribution.png?raw=true" width="300"/>
+</p>
 
 ---
 
@@ -109,7 +114,7 @@ liver_cirrhosis_stage_detection/
 - Evaluation Metrics:  
   - Precision, Recall, F1-score  
   - Confusion Matrix  
-  - Feature Importance  
+  - Feature Importance
 
 ---
 
@@ -131,7 +136,22 @@ git clone https://github.com/SBanditaDas/Liver-Cirrhosis-Stage-Detection.git
 **Sushree Bandita Das**  
  
  📧 Email: sushreebanditadas01@gmail.com  
-🔗 [LinkedIn](http://www.linkedin.com/in/sushree-bandita-das-160651309)  
-🔗 [Portfolio](http://datascienceportfol.io/sushreebanditadas01)
+ 
+<h3 align="left"></h3> 
+<p align="left">
+  <a href="https://twitter.com/S_Bandita_Das" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="S_Bandita_Das" height="30" width="40" />
+  </a>
+  <a href="http://www.linkedin.com/in/sushree-bandita-das-160651309" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sushree-bandita-das-160651309" height="30" width="40" />
+  </a>
+  <a href="https://github.com/SBanditaDas" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="SBanditaDas" height="30" width="40" />
+  </a>
+  <a href="https://www.kaggle.com/dasbanditasushree" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="dasbanditasushree" height="30" width="40" />
+  </a>
+
+</p>
 
 ---
