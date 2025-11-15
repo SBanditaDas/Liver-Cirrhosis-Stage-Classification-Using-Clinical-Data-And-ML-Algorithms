@@ -125,7 +125,7 @@ liver_cirrhosis_stage_detection/
 git clone https://github.com/SBanditaDas/Liver-Cirrhosis-Stage-Detection.git
 ```
 - Open the notebook in Kaggle or Jupyter:
-🔗 [liver_cirrhosis_stage_detection.ipynb](liver_cirrhosis_stage_detection.ipynb)
+🔗 [liver_cirrhosis_stage_detection.ipynb](https://www.kaggle.com/code/dasbanditasushree/liver-cirrhosis-stage-detection)
 
 - Run all cells to reproduce results and visuals
 
